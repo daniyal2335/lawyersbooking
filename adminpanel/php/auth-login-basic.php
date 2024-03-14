@@ -1,5 +1,6 @@
 <?php
 include('query.php');
+
 ?>
 <!DOCTYPE html>
 
@@ -144,12 +145,12 @@ include('query.php');
             <form action="" method="post">
               <div class="form-group">
                 <label for="">Email Address</label>
-                <input type="email" name="uEmail" id="" pattern="[a-zA-Z]{3,}[0-9]{3,6}[[@}[a-z]{5,8}[a-z]{3,8}" class="form-control" placeholder="" aria-describedby="helpId">
+                <input type="email" name="uEmail" id="" pattern="[a-zA-Z]{3,9}[0-9]{3,6}[[@}[a-z]{5,8}[a-z]{3,8}" class="form-control" placeholder="" aria-describedby="helpId">
                 
               </div>
               <div class="form-group">
                 <label for="">Password</label>
-                <input type="password" name="uPassword" password="[0-9]{3,}" id=""  class="form-control" placeholder="" aria-describedby="helpId">
+                <input type="password" name="uPassword" pattern="[0-9]{3,}" id=""  class="form-control" placeholder="" aria-describedby="helpId">
                 
               </div>
               <div class="mb-3">
